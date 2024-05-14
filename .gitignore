@@ -1,0 +1,20 @@
+
+.DS_*
+*.log
+logs
+**/*.backup.*
+**/*.back.*
+
+# config folder
+node_modules
+bower_components
+dist
+
+*.sublime*
+
+# other
+psd
+thumb
+sketch
+
+# End of https://mrkandreev.name/snippets/gitignore-generator/#react
