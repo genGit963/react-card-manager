@@ -7,7 +7,7 @@ type CardTypes = {
   children: ReactNode;
 };
 
-const CardManagerTailwind: React.FC<CardTypes> = ({
+const CardManager: React.FC<CardTypes> = ({
   animation_style = "from-bottom",
   children,
 }) => {
@@ -20,4 +20,4 @@ const CardManagerTailwind: React.FC<CardTypes> = ({
   );
 };
 
-export default CardManagerTailwind;
+export default CardManager;
